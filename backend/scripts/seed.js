@@ -1,7 +1,5 @@
 const User = require('../../backend/models/user');
-const Item = require('../../backend/models/item');
 const Sort = require('../../backend/models/sort');
-const Recipe = require('../../backend/models/recipe');
 const faker = require('faker');
 const path = require('path');
 const fs = require('fs-extra');

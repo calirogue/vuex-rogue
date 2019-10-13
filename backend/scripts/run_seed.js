@@ -16,12 +16,8 @@ mongoose.connect(`${MONGO_DB_URI}/${DB_NAME}`, {
   try {
     await seed.users();
     console.log('Successfully seeded user accounts');
-    const items = await seed.items();
-    console.log(`Successfully seeded ${items.length} items`);
     const sorts = await seed.sorts();
     console.log(`Successfully seeded ${sorts.length} sorts`);
-    const recipes = await seed.recipes();
-    console.log(`Successfully seeded ${recipes.length} recipes`);
     process.exit(0);
   } catch (err) {
     console.log(err);
