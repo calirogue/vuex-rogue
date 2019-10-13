@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Dmo Cookies",
+    "description": "demo text",
+    "image": "statics/purple.png",
+    "image1": "statics/cookiescream.jpg",
+    "image2": "statics/cookiescream.jpg",
+    "type": "hybrid",
+    "cbd": 10,
+    "thc": 24.29,
+    "effects": "Happy, Relaxed, Uplifted, Creative",
+    "flavor": "Earthy tones that hit different parts of the palate | Sweet backnotes that linger pleasantly"
+  },
+  {
+    "title": "Demo1 Cookies",
+    "description": "demo text",
+    "image": "statics/purple.png",
+    "image1": "statics/cookiescream.jpg",
+    "image2": "statics/cookiescream.jpg",
+    "type": "hybrid",
+    "cbd": 20,
+    "thc": 25.29,
+    "effects": "Happy, Relaxed, Uplifted, Creative",
+    "flavor": "Earthy tones that hit different parts of the palate | Sweet backnotes that linger pleasantly"
+  },
+  {
+    "title": "Demo2 Cookies",
+    "description": "demo text",
+    "image": "statics/purple.png",
+    "image1": "statics/cookiescream.jpg",
+    "image2": "statics/cookiescream.jpg",
+    "type": "hybrid",
+    "cbd": 0,
+    "thc": 27.29,
+    "effects": "Happy, Relaxed, Uplifted, Creative",
+    "flavor": "Earthy tones that hit different parts of the palate | Sweet backnotes that linger pleasantly"
+  }
+]
