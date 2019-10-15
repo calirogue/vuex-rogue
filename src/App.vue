@@ -2,6 +2,7 @@
   <div class="home">
     <div class="container">
       <AddTodos />
+      <FilterTodos />
       <Todos />
     </div>
   </div>
@@ -11,12 +12,14 @@
 // @ is an alias to /src
 import AddTodos from "@/components/AddTodos.vue"
 import Todos from "@/components/Todos.vue";
+import FilterTodos from "@/components/FilterTodos.vue";
 
 export default {
   name: "home",
   components: {
     Todos,
-    AddTodos
+    AddTodos,
+    FilterTodos
   }
 };
 </script>
