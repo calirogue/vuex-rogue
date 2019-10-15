@@ -1,22 +1,12 @@
 <template>
-  <div class="home">
-    <div class="container">
-      <Todos />
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
     </div>
+    <router-view />
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import Todos from "@/components/Todos.vue";
-
-export default {
-  name: "home",
-  components: {
-    Todos
-  }
-};
-</script>
 
 <style>
 body {
