@@ -4,6 +4,7 @@
     <div class="todos">
       <div v-for="todo in allTodos" v-bind:key="todo.id" class="todo">
         {{ todo.title }}
+        <p @click="deleteTodo(todo.id)" class="trash">X</p>
       </div>
     </div>
   </div>
@@ -15,7 +16,7 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Todos",
   methods: {
-    ...mapActions(["fetchTodos"])
+    ...mapActions(["fetchTodos", "deleteTodo"])
   },
   computed: mapGetters(["allTodos"]),
   created() {
@@ -37,6 +38,13 @@ export default {
     border-radius: 5px;
     text-align: center;
     position: relative;
+    cursor: pointer;
+  }
+  .trash {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #ffffff;
     cursor: pointer;
   }
 </style>
